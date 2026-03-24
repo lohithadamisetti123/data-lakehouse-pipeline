@@ -1,0 +1,60 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background: #282c34;
+  color: white;
+  padding: 10px 20px;
+}
+
+.App-container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.Sidebar {
+  width: 260px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.Version-list {
+  list-style: none;
+  padding: 0;
+}
+
+.Version-item {
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.Version-item.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.Main {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.Metadata table,
+.Results table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Metadata th,
+.Metadata td,
+.Results th,
+.Results td {
+  border: 1px solid #ddd;
+  padding: 4px 6px;
+}
+
+.Error {
+  color: red;
+}
