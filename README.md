@@ -179,12 +179,38 @@ ORDER BY COUNT(*) DESC;
 
 ```
 data-lakehouse-pipeline/
-├── data/
-├── pipeline/
-├── explorer/
+├── .env
+├── .env.example
+├── Dockerfile
 ├── docker-compose.yml
+├── docker-entrypoint.sh
 ├── requirements.txt
-└── README.md
+├── data/
+│   ├── source/
+│   │   ├── day_1.json.gz
+│   │   ├── day_2.json.gz
+│   │   ├── day_3.json.gz
+│   │   ├── day_4.json.gz
+│   │   └── day_5.json.gz
+│   └── lakehouse/
+│       ├── bronze/
+│       ├── silver/
+│       └── silver_corrected/
+├── pipeline/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── ingest.py
+│   └── correct_data.py
+├── explorer/
+│   ├── api/
+│   │   └── app.py
+│   └── ui/
+│       ├── package.json
+│       ├── src/
+│       └── public/
+└── docs/
+    └── transaction_log_analysis.md
+
 ```
 
 ---
