@@ -171,7 +171,7 @@ ORDER BY COUNT(*) DESC;
 
 ## Demo Video
 
-(Watch Here👉)[https://youtu.be/2SLXYAoeSDY]
+[Watch Here 👉](https://youtu.be/2SLXYAoeSDY)
 ---
 
 ## Project Structure
