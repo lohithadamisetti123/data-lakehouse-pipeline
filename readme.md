@@ -169,16 +169,6 @@ ORDER BY COUNT(*) DESC;
 
 ---
 
-## Screenshots
-
-(Add your screenshots here)
-
-* Versions list
-* Schema view
-* Query results
-
----
-
 ## Demo Video
 
 (Add your video link here)
